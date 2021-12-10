@@ -27,7 +27,7 @@ export default function Home() {
             />
           </div>
           <div className = "mb-4">
-            <h1 className = "text-lg font-medium mb-2">We're Atlas.</h1>
+            <h1 className = "text-lg font-medium mb-2">We&apos;re Atlas.</h1>
             <p className = "text-sm font-medium mb-2">We invest using models build to understand fundamentals.</p>
             <Link href="mailto:hobbleabbas@gmail.com">
               <a className = "text-sm font-medium text-blue-600">Contact</a>
