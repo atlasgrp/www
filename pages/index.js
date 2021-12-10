@@ -34,7 +34,7 @@ export default function Home() {
             </Link>
           </div>
           <h2 className = "text-md font-medium mb-2">Our Research</h2>
-          <div className = "grid grid-cols-2">
+          <div className = "grid grid-cols-1 sm:grid-cols-2 sm:gap-4">
             {research.map((item) => (
               <ResearchItem item = {item} key = {item.name}/>
             ))}
