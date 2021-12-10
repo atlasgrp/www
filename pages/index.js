@@ -48,7 +48,7 @@ export default function Home() {
 export const ResearchItem = ({ item }) => {
   return (
     <Link href = {item.link}>
-      <a href = {item.link} className = "hover:opacity-50">
+      <a key={item.name} href = {item.link} className = "hover:opacity-50">
         <div className = "text-sm text-gray-700 font-medium flex">
           <DocumentIcon className = "w-5 h-5 text-blue-600 mr-2" />
           {item.name}
